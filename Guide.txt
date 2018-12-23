@@ -1,0 +1,24 @@
+Technology
+- Spring Framework v5.1
+    WEB, JPA, Security, Lombok
+- Angular v70.1
+- Gulp
+- Maven v3.6.0
+- PostgreSQL v11.1
+
+==========================================
+
+ASIMS project containing two modules: 
+1. src/main/java (backend)
+2. src/main/webapp (frontend)
+
+=========================================
+https://dreamix.eu/blog/dreamix/how-to-setup-a-project-with-angular-7-and-spring-boot-that-provides-custom-embeddable-angular-components-via-angular-elements
+
+==========================================
+To remove the current dependencies and redownload it
+mvn dependency:purge-local-repository
+
+mvn spring-boot:run
+
+http://localhost:8090/
