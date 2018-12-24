@@ -26,6 +26,7 @@
 
 # compiled output
 /dist/
+/src/main/webapp/dist/
 /tmp
 /out-tsc
 e2e_test.*

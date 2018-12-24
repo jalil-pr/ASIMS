@@ -22,3 +22,33 @@ mvn dependency:purge-local-repository
 mvn spring-boot:run
 
 http://localhost:8090/
+
+=========================================
+* (spring-boot-starter-parent): 
+
+* (spring-boot-starter-web): 
+
+* (spring-boot-starter-test): 
+
+* Spring Boot Actuator (spring-boot-starter-actuator):  Actuator brings production-ready features to our application.
+Monitoring our app, gathering metrics, understanding traffic or the state of our database becomes trivial with this dependency.
+Actuator is mainly used to expose operational information about the running application – health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.
+$ curl localhost:8090/actuator/health
+
+* (spring-boot-starter-security): Simply put, by default, the application will get Basic Authentication enabled. There are some predefined properties, such as:
+security.user.name=user
+security.basic.enabled=true
+
+If we start the application, we’ll notice that the default password is randomly generated and printed in the console log:	
+Using default security password: c8be15de-4488-4490-9dc6-fab3f91435c6
+
+* (spring-boot-starter-tomcat):
+
+* (spring-boot-starter-aop):
+
+* (spring-boot-starter-integration): 
+
+* (spring-boot-devtools): Whenever files change in the classpath, applications using spring-boot-devtools will cause the application to restart.
+spring-boot-devtools module includes an embedded LiveReload server that is used to trigger a browser refresh when a resource is changed.
+spring-boot-devtools provides out of the box remote debugging capabilities via HTTP
+the spring-boot-devtools module to make the developer experience better and reduce the development time by automating a lot of activities.
