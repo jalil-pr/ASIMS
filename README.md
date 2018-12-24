@@ -1,4 +1,4 @@
-# Afghanistan Statistics Information Management System (ASIMS)#
+# Afghanistan Statistics Information Management System (ASIMS)
 
 Backend: Spring Framework v5
 Frontend: Angular v7
