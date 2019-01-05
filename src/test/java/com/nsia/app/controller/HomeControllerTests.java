@@ -11,6 +11,7 @@ public class HomeControllerTests {
 
 	@Test
 	public void test1() {
+		
 	}
 
 }
