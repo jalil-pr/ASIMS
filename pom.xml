@@ -68,9 +68,7 @@
 	    <optional>true</optional>
 	</dependency>
 	</dependencies>
-	<repositories>
-
-</repositories>
+	
 
 	<build>
 		<plugins>
